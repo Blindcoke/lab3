@@ -1,0 +1,45 @@
+body {
+    background: #000;
+    color: #000;
+
+}
+#container {
+    float: inline-start;
+    background: #99CC99;
+    height: 96vh;
+}
+
+#header{
+    background: #2F98FF;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+#navigation{
+    
+    float: left;
+    background: #B9E670;
+    height: 400px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#menu{
+    float: right;
+    background: #5C863A;
+    height: 400px;
+    width: 20%;
+    overflow: hidden;
+}
+
+#footer{
+    float: inline-end;
+    background: #FAAAF6;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
